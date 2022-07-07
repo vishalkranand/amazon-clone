@@ -1,0 +1,23 @@
+#small-container-main{
+    display:flex;
+    flex-direction: column;
+    height: 48%;
+    width: 48%;
+    margin: 2px;
+    object-fit: contain;
+}
+
+#small-container-main image{
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#product-title{
+    white-space: nowrap;
+   overflow: hidden !important;
+   text-overflow: ellipsis;
+   text-align: center;
+   font-weight: 400;
+}
+

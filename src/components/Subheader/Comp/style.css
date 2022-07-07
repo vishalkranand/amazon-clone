@@ -1,0 +1,33 @@
+#comp-container{
+  
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin:5px 0 6px 0;
+    padding: 7px 8px;
+    font-weight: 550;
+    font-size: 15px;
+    color: #FFFFFF;
+    box-sizing: content-box;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    
+}
+#comp-container:active{
+    color: rgb(212, 197, 197);
+}
+
+#comp-container:hover {
+    border: 1px solid white;
+}
+
+#follower-icon{
+    margin: 1px;
+    font-size: 8px;
+    position:relative;
+    left: 4px;
+    top:1.5px;
+    color:rgb(177, 165, 165)
+}
